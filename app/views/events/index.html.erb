@@ -1,1 +1,6 @@
-events#index page
+<% @events.each do |event| %>
+  Name: <%= event.name %><br>
+  Date: <%= event.date %><br>
+  City: <%= event.city %><br>
+  <hr>
+<% end %>
