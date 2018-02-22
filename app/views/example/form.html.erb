@@ -1,6 +1,6 @@
 <h1>Job Application</h1>
 
-<!-- <%= form_for @event do |f| %> -->
+<%= form_for @job_application do |f| %>
   <p>
     <%= f.label :full_name%>
     <%= f.text_field :full_name %>
@@ -17,7 +17,7 @@
 
   <p>
     <%= f.label :years_experience %>
-    <%= f.text_area :years_experiences %>
+    <%= f.text_area :years_experience %>
   </p>
 
   <p>
